@@ -1,5 +1,5 @@
 html { 
-  background: url("../media/bg_image1.jpg") no-repeat center center fixed; 
+  background: url("../media/bg_disco.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,7 +12,7 @@ html {
   background: none;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, violet, blue);
+  background: linear-gradient(135deg, red, orange);
   border-radius: 10px;
 }
 html {

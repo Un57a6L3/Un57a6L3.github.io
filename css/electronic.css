@@ -5,3 +5,16 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* ========== Scrollbar ==========*/
+::-webkit-scrollbar {
+  width: 12px;
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, violet, blue);
+  border-radius: 10px;
+}
+html {
+	scroll-behavior: smooth;
+}
