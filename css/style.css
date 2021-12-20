@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
+/* ----- Media ----- */
+@media only screen and (max-width: 768px) {
+	#wrap {
+		margin: 2em 5%;
+	}
+	.card-ph img {
+		max-height: 180px;
+	}
+}
+@media only screen and (min-width: 768px) {
+	#wrap {
+		margin: 2em 15%;
+	}
+	.card-ph img {
+		max-height: 300px;
+	}
+}
+
 /* ----- General ----- */
 :root {
 	--color-hf: rgba(255, 255, 255, 0.5);
@@ -73,7 +91,7 @@ footer {
 	text-align: center;
 }
 #wrap {
-	margin: 2em 15%;
+	/* margin: 2em 15%; */
 	padding: 1em 2em;;
 	flex-direction: column;
 	background: var(--color-bg);
@@ -108,7 +126,7 @@ footer {
 	transform: translate(-5px, -5px);
 }
 .card-ph img {
-	max-height: 300px;
+	/* max-height: 300px; */
 	height: auto;
 	border-radius: 1em;
 	box-shadow: 5px 10px rgba(0, 0, 0, 0.7);
