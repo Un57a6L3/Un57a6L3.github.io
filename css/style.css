@@ -20,6 +20,9 @@
 	#even h2 {
 		text-align: right;
 	}
+	.card-ph img {
+		max-height: 300px;
+	}
 }
 @media only screen and (orientation: portrait) {
 	#wrap {
@@ -146,7 +149,6 @@ footer {
 	transform: translate(-5px, -5px);
 }
 .card-ph img {
-	max-height: 300px;
 	border-radius: 1em;
 	box-shadow: 5px 10px rgba(0, 0, 0, 0.7);
 }
